@@ -19,11 +19,18 @@ Select: Vanilla.js
 $ cd desktop
 $ npm install
 
-## launch the frontend with rust
-$ npm run tauri dev
+## launch frontend
+$ dist/npm run tauri dev
+
+## launch backend
+$ src-tauri/cargo run
+
 
 ## place the index.html
 dist/index.html
 
-## to onvile buttoms
+## to add
 tauri.conf.json > build > "withGlobalTauri": true
+
+## examples of commands
+https://github.com/tauri-apps/tauri/blob/dev/examples/commands/main.rs
